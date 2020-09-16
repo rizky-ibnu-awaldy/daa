@@ -1,0 +1,13 @@
+Sebuah lingkaran diketahui memiliki jari-jari 30, maka tuliskan pseudocode untuk menghitung luas lingkaran.
+
+program hitung_luas_lingkaran
+deklarasi
+var phi : float;
+var r,luas:integer;
+algoritma:
+phi <– 3.14;
+
+read(r); {diinput user}
+luas <– phi * r *r;
+
+write(luas);
